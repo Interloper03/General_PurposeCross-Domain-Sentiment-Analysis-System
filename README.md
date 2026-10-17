@@ -17,13 +17,6 @@ To satisfy the project specifications, this system compares three distinct archi
 2.  **Pre-trained Transformer (Transfer Learning):** A Hugging Face Small Language Model (e.g., RoBERTa/DistilBERT) fine-tuned on the source domain.
 3.  **Custom Hybrid Model:** An architecture combining deep semantic transformer embeddings with statistical linguistic features (e.g., VADER polarity scores).
 
-## Repository Structure
-*   `app/` - Streamlit web application for real-time inference
-*   `data/raw/` - Raw datasets (Ignored in version control)
-*   `docs/` - Weekly CDIO project plans and governance documents
-*   `notebooks/` - Exploratory Data Analysis (EDA) and prototyping
-*   `src/` - Core pipeline scripts (preprocessing, training, evaluation)
-*   `tests/` - Unit tests and User Acceptance Testing (UAT) scripts
 
 ## Team Roles & Governance
 *   **Team Leader:** Atif Ahmed
